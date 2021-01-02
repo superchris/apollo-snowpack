@@ -1,4 +1,5 @@
 import { customElement, property, LitElement, html, css } from 'lit-element';
+import { ApolloQuery } from '@apollo-elements/lit-apollo';
 
 @customElement('app-root')
 export class AppRoot extends LitElement {
